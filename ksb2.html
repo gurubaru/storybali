@@ -47,5 +47,27 @@
         });
     });
     </script>
+        <!-- Anti copas dan CTRL U -->
+<script type='text/javascript'>
+  //<![CDATA[
+  // script redirect ctrl U
+function redirectCU(e) {
+  if (e.ctrlKey && e.which == 85) {
+    window.location.replace("https://tutlenc.blogspot.com/");
+    return false;
+  }
+}
+document.onkeydown = redirectCU;
+
+//Script Redirect Klik Kanan
+function redirectKK(e) {
+  if (e.which == 3) {
+    window.location.replace("https://tutlenc.blogspot.com/");
+    return false;
+  }
+}
+document.oncontextmenu = redirectKK;
+//]]>
+</script>
 </body>
 </html>
